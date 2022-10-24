@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.note-container{
+    height: 100%;
+}
+
+.note-container h2{
+    margin-bottom: 20px;
+}
+
+.note-container_notes{
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+}
+
+.notes_head{
+    font-family: 'Roboto', sans-serif;
+}
+
+.no_notes_head{
+    font-family: 'Roboto', sans-serif;
+}
